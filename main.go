@@ -2,7 +2,7 @@ package precommit
 
 type Repo struct {
 	Repo  string
-	Rev   string
+	Rev   string `yaml:"rev,omitempty"`
 	Hooks []Hook
 }
 
