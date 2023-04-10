@@ -16,6 +16,6 @@ type Hook struct {
 	Entry                   string   `yaml:"entry,omitempty"`
 	Args                    []string `yaml:"args,omitempty"`
 	Types                   []string `yaml:"types,omitempty"`
-	Files                   []string `yaml:"files,omitempty"`
+	Files                   string   `yaml:"files,omitempty"`
 	Stages                  []string `yaml:"stages,omitempty"`
 }
